@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ED07 — Partnership Pack</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --black:#000;--black-2:#0a0a0a;--panel:#101010;--line:#222;--line-2:#2e2e2e;
+    --white:#fff;--grey:#9b9b9b;--grey-2:#6b6b6b;--lime:#44d62d;--green-dark:#288319;
+    --display:"Archivo",sans-serif;--mono:"Space Mono",monospace;--body:"Inter",sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#1a1a1a;font-family:var(--body);color:var(--white);-webkit-font-smoothing:antialiased}
+  .page{width:794px;min-height:1123px;margin:0 auto 28px;background:var(--black);position:relative;overflow:hidden;padding:64px 60px;display:flex;flex-direction:column}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--lime)}
+  .eyebrow.muted{color:var(--grey)}
+  h1,h2,h3{font-family:var(--display);font-weight:800;text-transform:uppercase;line-height:.95;letter-spacing:-.01em}
+  p{color:var(--grey);line-height:1.7;font-size:14px}
+  .lime{color:var(--lime)}
+  .logo{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:900;font-size:22px}
+  .logo img.m{width:34px;height:34px;object-fit:contain}
+  .logo img.w{height:18px;object-fit:contain}
+  .pg-foot{margin-top:auto;display:flex;justify-content:space-between;align-items:center;padding-top:30px;border-top:1px solid var(--line);font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--grey-2)}
+
+  /* COVER */
+  .cover{justify-content:flex-end}
+  .cover .bg{position:absolute;inset:0;z-index:0}
+  .cover .bg img{width:100%;height:100%;object-fit:cover;object-position:center}
+  .cover .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,var(--black) 14%,rgba(0,0,0,.4) 55%,rgba(0,0,0,.7) 100%),radial-gradient(120% 80% at 75% 30%,rgba(68,214,45,.1),transparent 55%)}
+  .cover .top{position:absolute;top:64px;left:60px;right:60px;z-index:2;display:flex;justify-content:space-between;align-items:center}
+  .cover .ct{position:relative;z-index:2}
+  .cover h1{font-size:74px;font-weight:900;margin:14px 0 18px}
+  .cover h1 .lime{display:block}
+  .cover .sub{font-family:var(--mono);font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:#ddd;max-width:46ch}
+  .cover .bz{width:70px;height:2px;background:var(--lime);margin:22px 0}
+
+  /* sections */
+  .kicker{font-family:var(--display);font-size:40px;font-weight:900;text-transform:uppercase;line-height:.95;margin:10px 0 20px}
+  .kicker .lime{color:var(--lime)}
+  .lead{color:#e6e6e6;font-size:16px;line-height:1.7;max-width:60ch}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:28px}
+  .card{border:1px solid var(--line);background:var(--black-2);padding:22px}
+  .card h3{font-family:var(--mono);font-size:12px;letter-spacing:.1em;color:var(--lime);text-transform:uppercase;margin-bottom:10px}
+  .card p{font-size:13px}
+  .stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:26px 0}
+  .stat{border:1px solid var(--line);padding:20px;background:var(--black-2)}
+  .stat .n{font-family:var(--display);font-size:34px;font-weight:900;color:var(--lime);line-height:1}
+  .stat .l{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--grey);margin-top:8px}
+  .list{margin-top:22px}
+  .list .row{display:flex;gap:14px;align-items:flex-start;padding:13px 0;border-bottom:1px solid var(--line)}
+  .list .row .bk{color:var(--lime);font-family:var(--mono);font-size:13px;flex:none;margin-top:1px}
+  .list .row h4{font-family:var(--body);font-weight:600;font-size:14px;color:#fff}
+  .list .row p{font-size:12.5px;margin-top:2px}
+  .photo{position:relative;border:1px solid var(--line);overflow:hidden;height:355px;margin-top:26px}
+  .photo img{width:100%;height:100%;object-fit:cover;object-position:center 22%}
+  .quote{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:22px;line-height:1.2;border-left:3px solid var(--lime);padding-left:18px;margin:26px 0}
+  .quote span{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.12em;color:var(--grey);margin-top:10px}
+
+  /* tiers */
+  .tiers{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:26px}
+  .tier{border:1px solid var(--line);background:var(--black-2);padding:18px 14px;display:flex;flex-direction:column}
+  .tier.champ{border-color:var(--lime);background:rgba(68,214,45,.05)}
+  .tier .tn{font-family:var(--display);font-weight:900;font-size:22px;text-transform:uppercase}
+  .tier.champ .tn{color:var(--lime)}
+  .tier .td{font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--grey-2);margin:6px 0 14px;min-height:42px}
+  .tier ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+  .tier li{font-size:11.5px;color:#ddd;padding-left:16px;position:relative;line-height:1.4}
+  .tier li::before{content:"›";position:absolute;left:0;color:var(--lime)}
+  .closing{text-align:center;justify-content:center;align-items:center}
+  .closing .big{font-family:var(--display);font-weight:900;font-size:54px;text-transform:uppercase;line-height:.95;margin:18px 0}
+  .closing .big .lime{color:var(--lime)}
+  .closing .contact{margin-top:30px;display:flex;flex-direction:column;gap:8px;font-family:var(--mono);font-size:13px;letter-spacing:.04em;color:#ddd}
+  .closing .contact b{color:var(--lime)}
+  @media print{
+    @page{size:A4;margin:0}
+    html,body{background:#000}
+    *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    .page{margin:0;width:794px;min-height:1123px;page-break-after:always}
+    .page:last-child{page-break-after:auto}
+  }
+</style>
+</head>
+<body>
+
+<!-- PAGE 1 — COVER -->
+<section class="page cover">
+  <div class="bg"><img src="assets/hero-black-kart-v2.png" alt=""></div>
+  <div class="top">
+    <span class="logo"><img class="m" src="assets/ed07-logo-green.png"><img class="w" src="assets/ed07-wordmark-white.png"></span>
+    <span class="eyebrow">Partnership Pack · 2025</span>
+  </div>
+  <div class="ct">
+    <p class="eyebrow">Partnership Pack</p>
+    <h1>Built.<br><span class="lime">Not</span> Given.</h1>
+    <div class="bz"></div>
+    <p class="sub">A nine-year-old driver building his own path to Formula 1. This is not a logo on a car. This is a media partnership.</p>
+  </div>
+</section>
+
+<!-- PAGE 2 — THE STORY / THE SHIFT -->
+<section class="page">
+  <p class="eyebrow">Who is ED07</p>
+  <h2 class="kicker">More than racing.<br>It's a <span class="lime">movement.</span></h2>
+  <p class="lead">ED07 is Enrique Dias, a nine-year-old racing driver, and the story of a family building something real from the ground up. Every race, every late night in the garage, every 3D-printed part. Built, not given.</p>
+  <p class="lead" style="margin-top:16px">But ED07 is more than a race team. It's a growing media brand, a documentary series, a community. And that changes everything about what a partnership can be.</p>
+
+  <div class="two">
+    <div class="card"><h3>The old way</h3><p>A logo on the bodywork. A small local crowd, and no way to know if anyone ever saw your brand. The way it has always been done.</p></div>
+    <div class="card"><h3>The ED07 way</h3><p>Your brand inside the content, woven into the story, in front of a growing and genuinely engaged audience. With real numbers to prove it. Like backing a creator, not buying ad space.</p></div>
+  </div>
+
+  <div class="quote">"We don't sell logo space. We share a story, an audience and a movement."<span>— Team ED07</span></div>
+  <div class="pg-foot"><span>ED07 · Built, Not Given</span><span>02</span></div>
+</section>
+
+<!-- PAGE 3 — REACH & CONTENT ENGINE -->
+<section class="page">
+  <p class="eyebrow">The audience &amp; the engine</p>
+  <h2 class="kicker">A small audience<br>that <span class="lime">travels far.</span></h2>
+  <p class="lead">Early stage, high engagement, growing fast. The content reaches far beyond the follower count, exactly the kind of organic reach brands pay influencers for.</p>
+
+  <div class="stat-row">
+    <div class="stat"><div class="n">20×</div><div class="l">Views vs followers per video</div></div>
+    <div class="stat"><div class="n">Weekly</div><div class="l">New content, every race weekend</div></div>
+    <div class="stat"><div class="n">F1</div><div class="l">The long-term destination</div></div>
+  </div>
+
+  <p class="eyebrow muted" style="margin-bottom:6px">The content engine</p>
+  <div class="list">
+    <div class="row"><span class="bk">01</span><div><h4>Race Chapters</h4><p>A documentary series. Each race weekend, one full episode, from preparation to the chequered flag.</p></div></div>
+    <div class="row"><span class="bk">02</span><div><h4>Multi-camera race-weekend coverage</h4><p>Cameras on every practice and race day, capturing the raw behind-the-scenes moments people actually watch.</p></div></div>
+    <div class="row"><span class="bk">03</span><div><h4>The Garage &amp; 3D print content</h4><p>Building, fixing, printing. The work no one sees, turned into content people love.</p></div></div>
+    <div class="row"><span class="bk">04</span><div><h4>The Pit Crew community</h4><p>A membership of supporters who follow the journey on and off the track.</p></div></div>
+  </div>
+  <div class="pg-foot"><span>ED07 · Built, Not Given</span><span>03</span></div>
+</section>
+
+<!-- PAGE 4 — WHAT PARTNERS GET -->
+<section class="page">
+  <p class="eyebrow">What partners get</p>
+  <h2 class="kicker">Inside the content.<br>Inside the <span class="lime">story.</span></h2>
+  <p class="lead">Every deliverable is built for social media and storytelling, not a logo nobody sees.</p>
+  <div class="list">
+    <div class="row"><span class="bk">⚡</span><div><h4>Featured in the episodes</h4><p>"Presented by", mentions and brand presence inside Race Chapters.</p></div></div>
+    <div class="row"><span class="bk">⚡</span><div><h4>Dedicated Reels &amp; posts</h4><p>Content created about your brand, not just a tag.</p></div></div>
+    <div class="row"><span class="bk">⚡</span><div><h4>Story integration</h4><p>Your brand becomes part of the journey. "X helped Enrique get to the next round."</p></div></div>
+    <div class="row"><span class="bk">⚡</span><div><h4>Product placement</h4><p>Your product in the garage, the 3D-print content and the behind-the-scenes.</p></div></div>
+    <div class="row"><span class="bk">⚡</span><div><h4>3D co-creation</h4><p>A custom 3D-printed piece carrying your brand. Something nobody else is doing.</p></div></div>
+    <div class="row"><span class="bk">⚡</span><div><h4>Reach reporting</h4><p>Real numbers, views and reach, so you see the return. Like influencer marketing.</p></div></div>
+  </div>
+  <div class="pg-foot"><span>ED07 · Built, Not Given</span><span>04</span></div>
+</section>
+
+<!-- PAGE 5 — TIERS -->
+<section class="page">
+  <p class="eyebrow">Partnership levels</p>
+  <h2 class="kicker">Choose your <span class="lime">grid slot.</span></h2>
+  <p class="lead">Four levels, escalating from supporter to title partner. Every level is tailored, get in touch and we build the right fit for your brand.</p>
+  <div class="tiers">
+    <div class="tier">
+      <div class="tn">Pit</div>
+      <div class="td">Get on the grid</div>
+      <ul><li>Logo on the website</li><li>Welcome post</li><li>Listed as a supporter</li></ul>
+    </div>
+    <div class="tier">
+      <div class="tn">Grid</div>
+      <div class="td">Into the content</div>
+      <ul><li>Everything in Pit</li><li>1 episode feature</li><li>1 dedicated Reel</li><li>Product placement</li></ul>
+    </div>
+    <div class="tier">
+      <div class="tn">Pole</div>
+      <div class="td">Powered by you</div>
+      <ul><li>Everything in Grid</li><li>A "presented by" series</li><li>Season-long features</li><li>3D co-creation</li><li>Pit Crew feature</li></ul>
+    </div>
+    <div class="tier champ">
+      <div class="tn">Champion</div>
+      <div class="td">Title partner · founding believer</div>
+      <ul><li>Everything in Pole</li><li>Season title partner</li><li>Woven into the journey</li><li>Category exclusivity</li><li>Founding partner status to F1</li></ul>
+    </div>
+  </div>
+  <div class="photo"><img src="assets/partners-wide.png" alt=""></div>
+  <div class="pg-foot"><span>ED07 · Built, Not Given</span><span>05</span></div>
+</section>
+
+<!-- PAGE 6 — CLOSING -->
+<section class="page closing">
+  <span class="logo"><img class="m" src="assets/ed07-logo-green.png"><img class="w" src="assets/ed07-wordmark-white.png"></span>
+  <p class="eyebrow" style="margin-top:30px">Let's build something great</p>
+  <h2 class="big">Every dream<br>matters. Every<br><span class="lime">partner counts.</span></h2>
+  <p class="lead" style="text-align:center;max-width:50ch">Back the journey early. Be part of the story as Enrique builds his path to Formula 1.</p>
+  <div class="contact">
+    <span><b>Partnerships:</b> partner@ed07.com</span>
+    <span><b>Web:</b> ed07.com/partners</span>
+    <span><b>Follow:</b> @ed07 · Instagram · YouTube · TikTok</span>
+  </div>
+</section>
+
+</body>
+</html>
