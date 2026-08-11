@@ -156,22 +156,25 @@
 </section>
 
 <style>.g-card--soon{cursor:default}.g-card--soon .g-card-enter{color:#8a8a8a}.g-card--soon:hover{transform:none;border-color:inherit}
+.g-soon-mask{position:absolute;inset:0;z-index:4;display:flex;align-items:center;justify-content:center;background:rgba(6,8,6,.66);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px)}
+.g-soon-mask b{font-family:'Space Mono',ui-monospace,monospace;font-weight:700;font-size:13px;letter-spacing:.34em;text-transform:uppercase;color:#fff;border:1px solid rgba(68,214,45,.75);padding:11px 20px;background:rgba(0,0,0,.4)}
 /* PARA REEXIBIR Pit Crew e Meet Enrique: apagar a regra abaixo (ou tirar a classe g-card--hidden dos 2 cards) e voltar o grid de 1180px para repeat(5,1fr) */
 .g-card--hidden{display:none!important}</style>
 
 <section class="cards">
   <div class="wrap cards-grid">
 
-    <a href="https://ed07builtnotgiven.etsy.com" target="_blank" rel="noopener" class="g-card">
+    <a href="#" onclick="return false" class="g-card g-card--soon" aria-disabled="true">
       <div class="g-card-img">
         <span class="g-card-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8.5 4l3.5 2.5L15.5 4l4.5 2.8V11l-2.4 1.1V20H6.4v-7.9L4 11V6.8z"/><path d="M8.5 4a3.5 3.5 0 0 0 7 0"/></svg></span>
         <div class="g-card-grad"></div>
         <img src="assets/card-wear.jpg?v=3" alt="Built, Not Given hoodie">
+        <div class="g-soon-mask"><b>Coming soon</b></div>
       </div>
       <div class="g-card-body">
         <div class="g-card-title"><h3>Wear</h3><span class="tag">Shop</span></div>
         <p class="g-card-desc">Built, Not Given apparel. Premium pieces for people who build.</p>
-        <span class="g-card-enter">Shop now →</span>
+        <span class="g-card-enter">Coming soon</span>
       </div>
     </a>
 
