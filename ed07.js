@@ -22,6 +22,8 @@
       "home.bng.p1":"The dream was Formula 1. The problem was money, because karting costs more than most families can carry and nobody wrote this one a cheque. So a ten-year-old went to work. Enrique prints and sells his own 3D toys, dragons and keychains, to help pay for the racing, with the Built, Not Given hoodies and tees coming next. What started on a school desk is a real business now, and every sale buys another lap towards Formula 1.",
       "home.bng.p2":"Nobody gave him the dream. He is building it, one lap and one sale at a time. That is what Built, Not Given means.",
       "home.bng.btn":"Visit the shop",
+      "home.partners.k":"Early partners",
+      "home.partners.t":"The names backing Enrique from the start. Yours could be next.",
 
       "jr.kicker":"In the workshop",
       "jr.title":"He builds it himself.",
@@ -106,6 +108,8 @@
       "home.bng.p1":"O sonho era a Fórmula 1. O problema era dinheiro, porque kart custa mais do que a maioria das famílias aguenta e ninguém passou um cheque pra essa. Então um menino de dez anos foi à luta. O Enrique imprime e vende os próprios brinquedos 3D, dragões e chaveiros, pra ajudar a pagar as corridas, e os moletons e camisetas Built, Not Given vêm a seguir. O que começou numa carteira de escola hoje é um negócio de verdade, e cada venda compra mais uma volta rumo à Fórmula 1.",
       "home.bng.p2":"Ninguém deu o sonho pra ele. Ele está construindo, uma volta e uma venda de cada vez. É isso que Built, Not Given significa.",
       "home.bng.btn":"Ver a loja",
+      "home.partners.k":"Primeiros parceiros",
+      "home.partners.t":"As marcas que apoiam o Enrique desde o começo. A sua pode ser a próxima.",
 
       "jr.kicker":"Na oficina",
       "jr.title":"Ele mesmo constrói.",

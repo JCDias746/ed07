@@ -194,6 +194,11 @@ body.nav-solid .nav{background:rgba(9,11,10,.95);border-bottom:1px solid var(--c
 
 /* ---------- partners band (home) — white marquee ---------- */
 .partners{background:#fff;overflow:hidden;padding:20px 0;position:relative}
+.partners-head{text-align:center;padding:14px 16px 20px;max-width:720px;margin:0 auto}
+.partners-head .ph-k{display:block;font-family:var(--fbody);font-weight:700;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#157A0E}
+.partners-head .ph-t{font-family:var(--fdisp);font-weight:800;text-transform:uppercase;font-size:clamp(18px,2.4vw,24px);line-height:1.12;color:#0B0D0C;margin-top:9px}
+.partners-head .ph-cta{display:inline-block;margin-top:13px;font-family:var(--fbody);font-weight:700;font-size:13px;color:#0B0D0C;border-bottom:2px solid var(--lime);padding-bottom:2px}
+.partners-head .ph-cta:hover{color:#157A0E}
 .partners::before,.partners::after{content:"";position:absolute;top:0;bottom:0;width:90px;z-index:2;pointer-events:none}
 .partners::before{left:0;background:linear-gradient(to right,#fff,rgba(255,255,255,0))}
 .partners::after{right:0;background:linear-gradient(to left,#fff,rgba(255,255,255,0))}
