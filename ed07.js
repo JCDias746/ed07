@@ -9,7 +9,7 @@
       "nav.partner":"Become a Partner","nav.shop":"Shop","nav.about":"About",
       "cta.partner":"Become a partner","cta.bar":"Back the climb before the world catches on.",
 
-      "home.sub":"They told a ten-year-old to dream smaller. Instead, Enrique is chasing Formula 1 and building a business to pay for it himself. This is the climb, and the hustle behind it.",
+      "home.sub":"Enrique is ten, and the dream is Formula 1. Karting costs more than his family could ever simply hand over, so he started printing and selling his own 3D toys to help pay for it. That is where Built, Not Given began.",
       "home.id":"Honda Cadet 200.  Hastings, England.  Road to Formula 1.",
       "home.see":"See the journey",
       "home.next":"Where to next",
@@ -19,8 +19,8 @@
       "home.shop.d":"Wear the movement. Every piece pays for the next race.",
       "home.bng.k":"Built, Not Given",
       "home.bng.t":"He funds the dream himself.",
-      "home.bng.p1":"Karting costs more than most families can carry, and nobody wrote this one a cheque. A ten-year-old could have quit. Instead, Enrique got to work. He prints and sells his own 3D toys, dragons and keychains, and the Built, Not Given hoodies and tees take it further. What started on a school desk is a real business, and every single sale buys another lap toward Formula 1.",
-      "home.bng.p2":"Nobody handed him this. He is earning it, one lap and one sale at a time. That is what Built, Not Given means.",
+      "home.bng.p1":"The dream was Formula 1. The problem was money, because karting costs more than most families can carry and nobody wrote this one a cheque. So a ten-year-old went to work. Enrique prints and sells his own 3D toys, dragons and keychains, to help pay for the racing, with the Built, Not Given hoodies and tees coming next. What started on a school desk is a real business now, and every sale buys another lap towards Formula 1.",
+      "home.bng.p2":"Nobody gave him the dream. He is building it, one lap and one sale at a time. That is what Built, Not Given means.",
       "home.bng.btn":"Visit the shop",
 
       "jr.kicker":"In the workshop",
@@ -37,7 +37,7 @@
       "jr.cta.btn":"Race Chapters",
 
       "shop.hero":"Wear the movement.",
-      "shop.lede":"This is not merch, it is fuel. You are backing the youngest entrepreneur in the paddock, and every hoodie, tee and 3D print you buy pays for another lap toward Formula 1.",
+      "shop.lede":"This is not merch, it is fuel. Enrique prints and sells all of this to help pay for his own racing, so every hoodie, tee and 3D print you buy puts another lap between him and Formula 1.",
       "wear.title":"Hoodies & Tees",
       "wear.desc":"Black and white hoodies and tees. T07 on the front, Built, Not Given across the back. Worn by a family who means it.",
       "wear.soon":"Coming soon",
@@ -50,7 +50,7 @@
       "partners.label":"Early partners",
       "p.hero":"You are not sponsoring a kart.",
       "p.hero2":"You are buying visibility.",
-      "p.lede":"Most ten-year-olds ask for things. Enrique builds them. He is chasing Formula 1 and already runs a small business, 3D prints and the Built, Not Given label, to help fund his own dream. People do not root for logos, they root for a kid who hustles. Put your brand inside the story, on our Instagram today, with live shows on YouTube and TikTok coming. Three channels, one story people actually care about.",
+      "p.lede":"Most ten-year-olds ask for things. Enrique builds them. He is chasing Formula 1, and because nobody could simply fund it, he started a small business, 3D prints and the Built, Not Given label, to help pay his own way. People do not root for logos, they root for a kid who hustles. Put your brand inside the story, on our Instagram today, with live shows on YouTube and TikTok coming. Three channels, one story people actually care about.",
       "p.see":"See the packages","p.talk":"Talk to us",
       "p.packages":"The packages",
       "p.month":"/ month","p.season":"/ season","p.seasononly":"Season only","p.choose":"Choose",
@@ -69,9 +69,9 @@
       "rc.note":"New clips coming soon. Follow on Instagram so you don't miss them.",
 
       "ab.h1":"Ten years old. One plan. No plan B.",
-      "ab.sub":"This is Enrique. A school bag, a cat at home, and a dream the world calls impossible. He races to chase it, and he built a business to pay for it. He decided to do both anyway.",
+      "ab.sub":"This is Enrique. Ten years old, with one dream the world calls impossible: Formula 1. His family could not simply buy the career that karting demands, so he built a business to help pay for it himself. He decided to chase both anyway.",
       "ab.b1.t":"A normal life, lived on purpose.",
-      "ab.b1.p":"On the outside, an ordinary ten-year-old: school, homework, his cat. On the inside, a focus most adults never find. Every cold 5am start, every lap in the rain, is one more brick toward Formula 1.",
+      "ab.b1.p":"On the outside, an ordinary ten-year-old: school, homework, his cat. On the inside, a focus most adults never find. Every cold 5am start, every lap in the rain, is one more brick towards Formula 1.",
       "ab.b2.t":"He funds the dream himself.",
       "ab.b2.p":"Karting is brutally expensive, and nobody wrote this family a cheque. So Enrique did something about it. He started printing and selling toys and keychains to friends at school. That school desk became a small shop online, and every order buys another set of tyres, another shot at the dream.",
       "ab.b2.btn":"Visit the shop",
@@ -83,7 +83,7 @@
       "ab.gal.t":"Just a kid, really.",
       "ab.gal.lede":"A big dream does not mean a strange life. It means a full one.",
       "ab.gal.1":"With his sister Laura","ab.gal.2":"On the climbing wall","ab.gal.3":"Family bike ride",
-      "ab.gal.4":"Ice cream stop","ab.gal.5":"Family","ab.gal.6":"With mum",
+      "ab.gal.4":"Ice cream stop","ab.gal.5":"Family","ab.gal.6":"With his sister",
       "ab.gal.note":"High-resolution photos coming soon.",
 
       "foot.follow":"Follow the journey","foot.rights":"All rights reserved."
@@ -93,7 +93,7 @@
       "nav.partner":"Seja um Parceiro","nav.shop":"Loja","nav.about":"Sobre",
       "cta.partner":"Seja um parceiro","cta.bar":"Apoie a subida antes de todo mundo perceber.",
 
-      "home.sub":"Disseram a um menino de dez anos pra sonhar menor. Em vez disso, o Enrique está atrás da Fórmula 1 e construindo um negócio pra pagar por ela sozinho. Essa é a subida, e a correria por trás dela.",
+      "home.sub":"O Enrique tem dez anos, e o sonho é a Fórmula 1. O kart custa mais do que a família dele poderia simplesmente bancar, então ele começou a imprimir e vender os próprios brinquedos 3D pra ajudar a pagar. Foi aí que nasceu o Built, Not Given.",
       "home.id":"Honda Cadet 200.  Hastings, Inglaterra.  Rumo à Fórmula 1.",
       "home.see":"Veja a jornada",
       "home.next":"Por onde seguir",
@@ -103,8 +103,8 @@
       "home.shop.d":"Vista o movimento. Cada peça paga a próxima corrida.",
       "home.bng.k":"Built, Not Given",
       "home.bng.t":"Ele mesmo banca o sonho.",
-      "home.bng.p1":"Kart custa mais do que a maioria das famílias aguenta, e ninguém passou um cheque pra essa. Um menino de dez anos poderia ter desistido. Em vez disso, o Enrique foi à luta. Ele imprime e vende os próprios brinquedos 3D, dragões e chaveiros, e os moletons e camisetas Built, Not Given levam isso adiante. O que começou numa carteira de escola virou um negócio de verdade, e cada venda compra mais uma volta rumo à Fórmula 1.",
-      "home.bng.p2":"Ninguém deu nada de bandeja. Ele está conquistando, uma volta e uma venda de cada vez. É isso que Built, Not Given significa.",
+      "home.bng.p1":"O sonho era a Fórmula 1. O problema era dinheiro, porque kart custa mais do que a maioria das famílias aguenta e ninguém passou um cheque pra essa. Então um menino de dez anos foi à luta. O Enrique imprime e vende os próprios brinquedos 3D, dragões e chaveiros, pra ajudar a pagar as corridas, e os moletons e camisetas Built, Not Given vêm a seguir. O que começou numa carteira de escola hoje é um negócio de verdade, e cada venda compra mais uma volta rumo à Fórmula 1.",
+      "home.bng.p2":"Ninguém deu o sonho pra ele. Ele está construindo, uma volta e uma venda de cada vez. É isso que Built, Not Given significa.",
       "home.bng.btn":"Ver a loja",
 
       "jr.kicker":"Na oficina",
@@ -121,7 +121,7 @@
       "jr.cta.btn":"Capítulos de Corrida",
 
       "shop.hero":"Vista o movimento.",
-      "shop.lede":"Isto não é produto, é combustível. Você está apoiando o empreendedor mais novo do paddock, e cada moletom, camiseta e impressão 3D que você compra paga mais uma volta rumo à Fórmula 1.",
+      "shop.lede":"Isto não é produto, é combustível. O Enrique imprime e vende tudo isso pra ajudar a pagar as próprias corridas, então cada moletom, camiseta e impressão 3D que você compra coloca mais uma volta entre ele e a Fórmula 1.",
       "wear.title":"Moletons e Camisetas",
       "wear.desc":"Moletons e camisetas preto e branco. T07 na frente, Built, Not Given nas costas. Vestido por uma família que leva a sério.",
       "wear.soon":"Em breve",
@@ -134,7 +134,7 @@
       "partners.label":"Primeiros parceiros",
       "p.hero":"Você não está patrocinando um kart.",
       "p.hero2":"Você está comprando visibilidade.",
-      "p.lede":"A maioria dos meninos de dez anos pede as coisas. O Enrique constrói. Ele está atrás da Fórmula 1 e já toca um pequeno negócio, impressões 3D e a marca Built, Not Given, pra ajudar a bancar o próprio sonho. As pessoas não torcem por logos, torcem por um moleque que corre atrás. Coloque sua marca dentro da história, no nosso Instagram hoje, com lives no YouTube e no TikTok chegando. Três canais, uma história pela qual as pessoas realmente se importam.",
+      "p.lede":"A maioria dos meninos de dez anos pede as coisas. O Enrique constrói. Ele está atrás da Fórmula 1 e, como ninguém podia simplesmente bancar, começou um pequeno negócio, impressões 3D e a marca Built, Not Given, pra ajudar a pagar o próprio caminho. As pessoas não torcem por logos, torcem por um moleque que corre atrás. Coloque sua marca dentro da história, no nosso Instagram hoje, com lives no YouTube e no TikTok chegando. Três canais, uma história pela qual as pessoas realmente se importam.",
       "p.see":"Ver os pacotes","p.talk":"Fale com a gente",
       "p.packages":"Os pacotes",
       "p.month":"/ mês","p.season":"/ temporada","p.seasononly":"Só temporada","p.choose":"Escolher",
@@ -153,7 +153,7 @@
       "rc.note":"Clipes novos em breve. Siga no Instagram pra não perder.",
 
       "ab.h1":"Dez anos. Um plano. Sem plano B.",
-      "ab.sub":"Esse é o Enrique. Uma mochila, um gato em casa, e um sonho que o mundo chama de impossível. Ele corre pra perseguir e montou um negócio pra pagar por ele. Decidiu fazer as duas coisas mesmo assim.",
+      "ab.sub":"Esse é o Enrique. Dez anos, com um sonho que o mundo chama de impossível: a Fórmula 1. A família dele não podia simplesmente comprar a carreira que o kart exige, então ele montou um negócio pra ajudar a pagar sozinho. Decidiu perseguir as duas coisas mesmo assim.",
       "ab.b1.t":"Uma vida normal, vivida com propósito.",
       "ab.b1.p":"Por fora, um menino comum de dez anos: escola, lição, o gato. Por dentro, um foco que a maioria dos adultos nunca encontra. Cada largada às 5 da manhã no frio, cada volta na chuva, é mais um tijolo rumo à Fórmula 1.",
       "ab.b2.t":"Ele mesmo banca o sonho.",
@@ -167,7 +167,7 @@
       "ab.gal.t":"No fundo, só uma criança.",
       "ab.gal.lede":"Um sonho grande não significa uma vida estranha. Significa uma vida cheia.",
       "ab.gal.1":"Com a irmã, Laura","ab.gal.2":"Na escalada","ab.gal.3":"Passeio de bike em família",
-      "ab.gal.4":"Hora do sorvete","ab.gal.5":"Família","ab.gal.6":"Com a mãe",
+      "ab.gal.4":"Hora do sorvete","ab.gal.5":"Família","ab.gal.6":"Com a irmã",
       "ab.gal.note":"Fotos em alta em breve.",
 
       "foot.follow":"Acompanhe a jornada","foot.rights":"Todos os direitos reservados."
