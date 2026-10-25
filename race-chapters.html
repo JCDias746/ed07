@@ -23,6 +23,29 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Saira:wght@400;600;700&family=Saira+Condensed:wght@700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="ed07.css?v=20261024">
+<style>
+  /* Race Chapters: vertical reels (9:16) + fullscreen player */
+  .rc .vid-grid{grid-template-columns:repeat(2,1fr);gap:16px}
+  @media(min-width:620px){.rc .vid-grid{grid-template-columns:repeat(3,1fr)}}
+  @media(min-width:940px){.rc .vid-grid{grid-template-columns:repeat(4,1fr)}}
+  .rc .vid{cursor:pointer}
+  .rc .vid .thumb{aspect-ratio:9/16}
+
+  .lb{position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.94);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);display:none;align-items:center;justify-content:center;padding:24px}
+  .lb.open{display:flex}
+  .lb-inner{position:relative;width:min(100%,420px)}
+  .lb video{width:100%;max-height:84vh;background:#000;border-radius:12px;display:block}
+  .lb-close{position:absolute;top:-46px;right:-4px;background:none;border:0;color:#fff;font-size:30px;line-height:1;cursor:pointer}
+  .lb-close:hover{color:#44d62d}
+  .lb-cap{margin-top:14px;font-size:12px;letter-spacing:.12em;color:#9b9b9b;text-align:center;text-transform:uppercase}
+  @media(max-width:720px){
+    .lb{padding:0}
+    .lb-inner{width:100%;height:100%}
+    .lb video{width:100%;height:100%;max-height:none;border-radius:0;object-fit:contain}
+    .lb-close{top:14px;right:14px;width:44px;height:44px;border-radius:50%;background:rgba(0,0,0,.55);z-index:5}
+    .lb-cap{position:absolute;left:0;right:0;bottom:18px;margin:0;padding:0 16px}
+  }
+</style>
 </head>
 <body>
 
@@ -70,15 +93,51 @@
       <a class="btn btn-primary btn-lg" href="https://instagram.com/enriquedias07thunderlap" target="_blank" rel="noopener" data-i18n="rc.live.btn">Follow on Instagram</a>
     </div>
 
-    <!-- CLIPS (thumbnails, videos coming) -->
+    <!-- CLIPS -->
     <div class="vid-grid">
-      <div class="vid"><div class="thumb" style="background-image:url('assets/pit-walk.jpg');background-size:cover;background-position:60% 38%"><div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div></div></div>
-      <div class="vid"><div class="thumb" style="background-image:url('assets/kart-mychron.jpg');background-size:cover;background-position:55% 45%"><div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div></div></div>
-      <div class="vid"><div class="thumb" style="background-image:url('assets/kart-back.jpg');background-size:cover;background-position:50% 40%"><div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div></div></div>
-      <div class="vid"><div class="thumb" style="background-image:url('assets/family-day.jpg');background-size:cover;background-position:50% 38%"><div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div></div></div>
+      <a class="vid" data-video="assets/chapters/v7.mp4" data-title="Thunder Lap 07 · The opener">
+        <div class="thumb"><img src="assets/chapters/v7.jpg" alt="Thunder Lap 07 intro"><div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div></div>
+        <div class="cap"><span class="vtitle">Thunder Lap 07</span><span class="vtag">0:49</span></div>
+        <div class="vwatch">The opener</div>
+      </a>
+      <a class="vid" data-video="assets/chapters/v3.mp4" data-title="The track closes. The training doesn't.">
+        <div class="thumb"><img src="assets/chapters/v3.jpg" alt="Enrique on the racing simulator"><div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div></div>
+        <div class="cap"><span class="vtitle">Training Never Stops</span><span class="vtag">0:28</span></div>
+        <div class="vwatch">When the track closes</div>
+      </a>
+      <a class="vid" data-video="assets/chapters/v6.mp4" data-title="Get those wrong, you lose the race.">
+        <div class="thumb"><img src="assets/chapters/v6.jpg" alt="Enrique in the kart in the paddock"><div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div></div>
+        <div class="cap"><span class="vtitle">Lose The Race</span><span class="vtag">0:15</span></div>
+        <div class="vwatch">Get those wrong</div>
+      </a>
+      <a class="vid" data-video="assets/chapters/v2.mp4" data-title="Train hard. Never give up.">
+        <div class="thumb"><img src="assets/chapters/v2.jpg" alt="The kart getting prepared in the pits"><div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div></div>
+        <div class="cap"><span class="vtitle">Train Hard</span><span class="vtag">0:19</span></div>
+        <div class="vwatch">Never give up</div>
+      </a>
+      <a class="vid" data-video="assets/chapters/v4.mp4" data-title="Behind every driver is a whole family.">
+        <div class="thumb"><img src="assets/chapters/v4.jpg" alt="Enrique trackside with family"><div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div></div>
+        <div class="cap"><span class="vtitle">A Whole Family</span><span class="vtag">0:15</span></div>
+        <div class="vwatch">Behind every driver</div>
+      </a>
+      <a class="vid" data-video="assets/chapters/v5.mp4" data-title="The work behind the wheel.">
+        <div class="thumb"><img src="assets/chapters/v5.jpg" alt="Enrique training in the gym"><div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div></div>
+        <div class="cap"><span class="vtitle">The Work</span><span class="vtag">0:22</span></div>
+        <div class="vwatch">Behind the wheel</div>
+      </a>
+      <a class="vid" data-video="assets/chapters/v1.mp4" data-title="The machine, up close.">
+        <div class="thumb"><img src="assets/chapters/v1.jpg" alt="Close-up of the ED07 kart"><div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div></div>
+        <div class="cap"><span class="vtitle">The Machine</span><span class="vtag">0:23</span></div>
+        <div class="vwatch">Up close</div>
+      </a>
+      <a class="vid" data-video="assets/chapters/v8.mp4" data-title="Away from the track.">
+        <div class="thumb"><img src="assets/chapters/v8.jpg" alt="Enrique playing the cello"><div class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div></div>
+        <div class="cap"><span class="vtitle">Away From The Track</span><span class="vtag">0:33</span></div>
+        <div class="vwatch">The other side of him</div>
+      </a>
     </div>
 
-    <p class="rc-note" data-i18n="rc.note">New clips coming soon. Follow on Instagram so you don't miss them.</p>
+    <p class="rc-note" data-i18n="rc.note">New clips every week. Follow on Instagram so you don't miss them.</p>
   </div>
 </main>
 
@@ -131,5 +190,44 @@
 </footer>
 
 <script src="ed07.js?v=20261024"></script>
+
+<!-- VIDEO LIGHTBOX -->
+<div class="lb" id="lb" aria-hidden="true">
+  <div class="lb-inner">
+    <button class="lb-close" id="lbclose" aria-label="Close">✕</button>
+    <video id="lbv" controls playsinline preload="metadata"></video>
+    <div class="lb-cap" id="lbcap"></div>
+  </div>
+</div>
+<script>
+(function(){
+  var lb=document.getElementById('lb'),v=document.getElementById('lbv'),cap=document.getElementById('lbcap');
+  function isMobile(){return window.matchMedia('(max-width:720px)').matches;}
+  function goFs(){
+    if(v.webkitEnterFullscreen){try{v.webkitEnterFullscreen();}catch(e){}}
+    else if(v.requestFullscreen){v.requestFullscreen().catch(function(){});}
+  }
+  function open(src,title){
+    v.src=src;cap.textContent=title||'';lb.classList.add('open');lb.setAttribute('aria-hidden','false');
+    var p=v.play();if(p&&p.catch){p.catch(function(){});}
+    if(isMobile()){
+      if(v.readyState>=1)goFs();
+      else{var once=function(){goFs();v.removeEventListener('loadedmetadata',once);};v.addEventListener('loadedmetadata',once);}
+    }
+  }
+  function close(){
+    lb.classList.remove('open');lb.setAttribute('aria-hidden','true');
+    try{if(document.fullscreenElement)document.exitFullscreen();}catch(e){}
+    v.pause();v.removeAttribute('src');v.load();
+  }
+  document.querySelectorAll('.vid[data-video]').forEach(function(el){
+    el.addEventListener('click',function(e){e.preventDefault();open(el.getAttribute('data-video'),el.getAttribute('data-title'));});
+  });
+  lb.addEventListener('click',function(e){if(e.target===lb)close();});
+  document.getElementById('lbclose').addEventListener('click',close);
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&lb.classList.contains('open'))close();});
+  v.addEventListener('webkitendfullscreen',close);
+})();
+</script>
 </body>
 </html>

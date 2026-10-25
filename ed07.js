@@ -68,7 +68,7 @@
       "rc.lede":"The wins, the crashes, the comebacks, filmed and real. Watch the story unfold on Instagram, with live shows on YouTube and TikTok coming.",
       "rc.live.t":"Follow every lap","rc.live.d":"New clips from race weekends, training and the workshop, every week.",
       "rc.live.btn":"Follow on Instagram","rc.watch":"Watch on Instagram","rc.soon":"Coming soon",
-      "rc.note":"New clips coming soon. Follow on Instagram so you don't miss them.",
+      "rc.note":"New clips every week. Follow on Instagram so you don't miss them.",
 
       "ab.h1":"Ten years old. One plan. No plan B.",
       "ab.sub":"This is Enrique. Ten years old, with one dream the world calls impossible: Formula 1. His family could not simply buy the career that karting demands, so he built a business to help pay for it himself. He decided to chase both anyway.",
@@ -154,7 +154,7 @@
       "rc.lede":"As vitórias, as batidas, as viradas, filmadas e reais. Acompanhe a história no Instagram, com lives no YouTube e no TikTok chegando.",
       "rc.live.t":"Acompanhe cada volta","rc.live.d":"Clipes novos dos fins de semana de corrida, treinos e oficina, toda semana.",
       "rc.live.btn":"Seguir no Instagram","rc.watch":"Assistir no Instagram","rc.soon":"Em breve",
-      "rc.note":"Clipes novos em breve. Siga no Instagram pra não perder.",
+      "rc.note":"Clipes novos toda semana. Siga no Instagram pra não perder.",
 
       "ab.h1":"Dez anos. Um plano. Sem plano B.",
       "ab.sub":"Esse é o Enrique. Dez anos, com um sonho que o mundo chama de impossível: a Fórmula 1. A família dele não podia simplesmente comprar a carreira que o kart exige, então ele montou um negócio pra ajudar a pagar sozinho. Decidiu perseguir as duas coisas mesmo assim.",
