@@ -52,7 +52,7 @@
       "partners.label":"Early partners",
       "p.hero":"You are not sponsoring a kart.",
       "p.hero2":"You are buying visibility.",
-      "p.lede":"Most ten-year-olds ask for things. Enrique builds them. He is chasing Formula 1, and because nobody could simply fund it, he started a small business, 3D prints and the Built, Not Given label, to help pay his own way. People do not root for logos, they root for a kid who hustles. Put your brand inside the story, on our Instagram today, with live shows on YouTube and TikTok coming. Three channels, one story people actually care about.",
+      "p.lede":"Most ten-year-olds ask for things. Enrique builds them. He is chasing Formula 1, and because nobody could simply fund it, he started a small business, 3D prints and the Built, Not Given label, to help pay his own way. People do not root for logos, they root for a kid who hustles. Put your brand inside the story, on our Instagram today, with live shows on YouTube coming. Two channels, one story people actually care about.",
       "p.see":"See the packages","p.talk":"Talk to us",
       "p.packages":"The packages",
       "p.month":"/ month","p.season":"/ season","p.seasononly":"Season only","p.choose":"Choose",
@@ -65,7 +65,7 @@
       "p.cta.t":"Be part of the story before everyone else.","p.cta.pack":"Download the pack",
 
       "rc.h1":"Every lap tells a story.",
-      "rc.lede":"The wins, the crashes, the comebacks, filmed and real. Watch the story unfold on Instagram, with live shows on YouTube and TikTok coming.",
+      "rc.lede":"The wins, the crashes, the comebacks, filmed and real. Watch the story unfold on Instagram, with live shows on YouTube coming.",
       "rc.live.t":"Follow every lap","rc.live.d":"New clips from race weekends, training and the workshop, every week.",
       "rc.live.btn":"Follow on Instagram","rc.watch":"Watch on Instagram","rc.soon":"Coming soon",
       "rc.note":"New clips every week. Follow on Instagram so you don't miss them.",
@@ -138,7 +138,7 @@
       "partners.label":"Primeiros parceiros",
       "p.hero":"Você não está patrocinando um kart.",
       "p.hero2":"Você está comprando visibilidade.",
-      "p.lede":"A maioria dos meninos de dez anos pede as coisas. O Enrique constrói. Ele está atrás da Fórmula 1 e, como ninguém podia simplesmente bancar, começou um pequeno negócio, impressões 3D e a marca Built, Not Given, pra ajudar a pagar o próprio caminho. As pessoas não torcem por logos, torcem por um moleque que corre atrás. Coloque sua marca dentro da história, no nosso Instagram hoje, com lives no YouTube e no TikTok chegando. Três canais, uma história pela qual as pessoas realmente se importam.",
+      "p.lede":"A maioria dos meninos de dez anos pede as coisas. O Enrique constrói. Ele está atrás da Fórmula 1 e, como ninguém podia simplesmente bancar, começou um pequeno negócio, impressões 3D e a marca Built, Not Given, pra ajudar a pagar o próprio caminho. As pessoas não torcem por logos, torcem por um moleque que corre atrás. Coloque sua marca dentro da história, no nosso Instagram hoje, com lives no YouTube chegando. Dois canais, uma história pela qual as pessoas realmente se importam.",
       "p.see":"Ver os pacotes","p.talk":"Fale com a gente",
       "p.packages":"Os pacotes",
       "p.month":"/ mês","p.season":"/ temporada","p.seasononly":"Só temporada","p.choose":"Escolher",
@@ -151,7 +151,7 @@
       "p.cta.t":"Faça parte da história antes de todo mundo.","p.cta.pack":"Baixar o pack",
 
       "rc.h1":"Cada volta conta uma história.",
-      "rc.lede":"As vitórias, as batidas, as viradas, filmadas e reais. Acompanhe a história no Instagram, com lives no YouTube e no TikTok chegando.",
+      "rc.lede":"As vitórias, as batidas, as viradas, filmadas e reais. Acompanhe a história no Instagram, com lives no YouTube chegando.",
       "rc.live.t":"Acompanhe cada volta","rc.live.d":"Clipes novos dos fins de semana de corrida, treinos e oficina, toda semana.",
       "rc.live.btn":"Seguir no Instagram","rc.watch":"Assistir no Instagram","rc.soon":"Em breve",
       "rc.note":"Clipes novos toda semana. Siga no Instagram pra não perder.",
@@ -233,12 +233,10 @@
   var SOCIAL={
     instagram:"https://instagram.com/enriquedias07thunderlap",
     youtube:"#",
-    tiktok:"#"
   };
   var SVG={
     instagram:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>',
     youtube:'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 7.5a3 3 0 0 0-2.1-2.1C19 4.8 12 4.8 12 4.8s-7 0-8.9.6A3 3 0 0 0 1 7.5 31 31 0 0 0 .6 12 31 31 0 0 0 1 16.5a3 3 0 0 0 2.1 2.1c1.9.6 8.9.6 8.9.6s7 0 8.9-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 23.4 12 31 31 0 0 0 23 7.5zM9.8 15.3V8.7l5.7 3.3z"/></svg>',
-    tiktok:'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 3c.4 2.3 1.7 3.7 3.9 3.9v2.7c-1.3.1-2.5-.3-3.9-1.1v5.9c0 4-2.9 6.6-6.5 5.9-2.7-.5-4-2-4.2-4.2-.3-3.1 2.4-5.6 5.6-5v2.9c-.4-.1-.8-.2-1.2-.1-1.1.1-1.8.8-1.7 1.9.1 1 .9 1.6 2 1.5 1.2-.1 1.8-.9 1.8-2.2V3z"/></svg>'
   };
   function fbtn(url,svg,name){ return '<a class="fl-btn" target="_blank" rel="noopener" href="'+url+'">'+svg+name+'</a>'; }
   function initFooter(){
