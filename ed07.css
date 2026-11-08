@@ -263,7 +263,7 @@ body.nav-solid .nav{background:rgba(9,11,10,.95);border-bottom:1px solid var(--c
 /* ---------- journey: events gallery (dark, after the museum) ---------- */
 .events{background:var(--asphalt);color:var(--ink);padding:clamp(118px,13vw,150px) 0 clamp(70px,9vw,110px)}
 .events .kicker{font-weight:700;font-size:13px;letter-spacing:.16em;color:var(--lime);margin-bottom:16px}
-.events h2{font-size:clamp(2.4rem,6vw,4.4rem);text-transform:uppercase;line-height:.98}
+.events h2,.events h1{font-size:clamp(2.4rem,6vw,4.4rem);text-transform:uppercase;line-height:.98}
 .events .lede{margin-top:18px;color:var(--ink-soft);font-size:clamp(1.05rem,1.6vw,1.28rem);max-width:48ch}
 .ev-grid{margin-top:clamp(32px,4vw,56px);display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:1fr;gap:12px}
 .ev-grid figure{margin:0;overflow:hidden;background:var(--carbon);border:1px solid var(--carbon-line);aspect-ratio:1}
